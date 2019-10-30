@@ -150,7 +150,7 @@ df1.loc[dates[0]:dates[1], 'E'] = 1
 # To drop any rows that have missing values or fill with a value
 df1.dropna(how = 'any')
 df1.fillna(value = 5)
-
+pd.isna(df1)
 
 
 
