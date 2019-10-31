@@ -48,7 +48,7 @@ df.describe()
 
 
 # 10. Transposing your data
-df.T
+print(df.T)
 
 
 # 11. Sorting by an axis and values
